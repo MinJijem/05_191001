@@ -45,15 +45,13 @@ int main(int argc, char *argv[]) {
 	}
 	else if(b<0)
 	{
-		printf("non-positive\n");
+		printf("negative\n");
 	}
 	else
 	{
 		printf("zero\n");
 	
 	}
-	
-	
 	
 		
 	
