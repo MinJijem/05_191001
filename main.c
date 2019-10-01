@@ -5,16 +5,21 @@
 
 int main(int argc, char *argv[]) {
 	
+
 	int input;
 	
-	printf("input a number : ");
-	scanf("%d", &input);
+	printf("Enter integer : ");
+	scanf("%d",&input);
 	
-	if ( input>0)
-		printf("positive \n");
+	if(input>0)
+		printf("|x|=%d\n",input);
 		
-		else
-		printf("no positive \n");
+	else
+		printf("|x|=%d\n",-input); /*practice 2*/
+		
+	
+		
+		
 	
 	return 0;
 }
