@@ -5,60 +5,21 @@
 
 int main(int argc, char *argv[]) {
 	
-	//practice 01
-	int a;
+	//practice 06
 	
-	printf("Enter integer :");
-	scanf("%d",&a);
+	int num = 0;
+	char c;
 	
-	if(a>0)
-		printf("positive\n");
-		
-	else
-		printf("non-positive\n");
-		
-	
-	//practice 02
-	
-	int input;
-	
-	printf("Enter integer : ");
-	scanf("%d",&input);
-	
-	if(input>0)
-		printf("|x|=%d\n",input);
-		
-	else
-		printf("|x|=%d\n",-input); 
-		
-		
-	//practice 03
-	
-	int b;
-		
-	printf("input a number : ");
-	scanf("%d", &b);
-	
-	if(b>0)
-	{
-		printf("positive\n");
-	}
-	else if(b<0)
-	{
-		printf("negative\n");
-	}
-	else
-	{
-		printf("zero\n");
-	
-	}
-	
+	printf("input a string : ");
 
-	
-	//practice 05
-	int i;
-	for (i=0;i<10;i++)
-		printf("Hello World!\n");
+	while((c=getchar()) != '\n')	
+	{
+		if(c <= '9'&& c >= '0')	
+			{
+				num++;
+			}
+	}
+	printf("%i\n",num);
 	
 	return 0;
 }
